@@ -29,7 +29,7 @@
 	background-color:white;
 	
 }
-.styled-list li.third-to-last{
+.styled-list li:nth-last-child(3){
 	background-color:pink;
 }
 
