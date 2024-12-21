@@ -3,11 +3,14 @@
 	background-color:rgb(135, 206, 235);
 }
 
-.first-child{
+.container p:first-child{
 	background-color:black;
 	color:white;
 }
-.last-child{
+.container p:nth-child(2){
+	color:inherit;
+}
+.container p:last-child{
 	color:red;
 }
 
