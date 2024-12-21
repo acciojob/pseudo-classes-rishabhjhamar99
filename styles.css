@@ -20,7 +20,8 @@
 	background-color:gray;
 	
 }
-.styled-list li.last-child{
+
+.styled-list li:first-child, li:last-child{
 	font-size:22px;
 }
 
